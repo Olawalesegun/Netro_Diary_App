@@ -12,11 +12,9 @@ public class Entry {
     public String getEntryTitle() {
         return entryTitle;
     }
-
     public void setEntryTitle(String entryTitle) {
         this.entryTitle = entryTitle;
     }
-
     public String getEntryBody() {
         return entryBody;
     }
