@@ -8,5 +8,4 @@ public interface EntryRepository {
     void deleteBy(int entryID);
     void deleteBy(Entry entry);
     long count();
-
 }
