@@ -8,5 +8,4 @@ public interface UserRepository {
     void deleteBy(String UserName);
     void deleteBy(User user);
     long count();
-
 }
