@@ -11,11 +11,9 @@ public class Diary {
     public String getUserName() {
         return userName;
     }
-
     public void setUserName(String userName) {
         this.userName = userName;
     }
-
     public String getDiaryName() {
         return diaryName;
     }
