@@ -8,6 +8,7 @@ public class User {
     private String email;
     private boolean isLoggedIn;
     private LocalDateTime dateUserCreatesAccount = LocalDateTime.now();
+    
     public String getUserName() {
         return userName;
     }
