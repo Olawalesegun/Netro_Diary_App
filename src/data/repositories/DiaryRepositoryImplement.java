@@ -12,15 +12,11 @@ public class DiaryRepositoryImplement implements DiaryRepository{
     public Diary findBy(String diaryName) {
         return null;
     }
-
     @Override
     public void delete(String diaryName) {
-
     }
-
     @Override
     public void delete(Diary diary) {
-
     }
 
     @Override
