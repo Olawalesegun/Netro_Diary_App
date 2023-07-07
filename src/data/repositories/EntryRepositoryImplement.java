@@ -3,9 +3,15 @@ package data.repositories;
 import data.models.Entry;
 
 public class EntryRepositoryImplement implements EntryRepository{
+    private List<Entry> entries = new ArrayList();
     @Override
     public Entry save(Entry entry) {
-        return null;
+        for(Entry entry1: entries){
+            if(entry1.getEntryTitle.equals(entry.getEntryTitle)){
+                enteries.add(entry);
+                return entry;
+            }
+        }
     }
 
     @Override
